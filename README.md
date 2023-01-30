@@ -49,7 +49,7 @@ Start with a [Customizable Setup](#customizable-setup) run.
 ---
 
 ``` bash
-/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/bretonics/Setup/HEAD/setup.sh)"
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/jlchang/bretonics_setup/HEAD/setup.sh)"
 ```
 
 > Cancel the auto run with `Ctrl-C` if you want to modify [apps.txt](https://github.com/bretonics/Setup/blob/main/src/apps.txt), [formulae.txt](https://github.com/bretonics/Setup/blob/main/src/formulae.txt), [casks.txt](https://github.com/bretonics/Setup/blob/main/src/casks.txt), and/or [Brewfile](https://github.com/bretonics/Setup/blob/main/src/Brewfile).
@@ -120,13 +120,13 @@ Arguments:
 I suggest using your own Brewfile. If you don't have one, see [Useful Commands](#useful-commands) to create one before running Setup, and pass this to the program as followed:
 
 ```bash
-/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/bretonics/Setup/HEAD/setup.sh)" "" ~/absolute/path/to/Brewfile
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/jlchang/bretonics_setup/HEAD/setup.sh)" "" ~/absolute/path/to/Brewfile
 ```
 
 You can also pass any of the available [options](#options):
 
 ```bash
-/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/bretonics/Setup/HEAD/setup.sh)" "" -E
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/jlchang/bretonics_setup/HEAD/setup.sh)" "" -E
 ```
 
 ### Manual
