@@ -1,4 +1,8 @@
-ServerAliveInterval 240
+ForwardX11Timeout 120h
+
+#send a null packet over the ssh connection every 4 min (give up after two tries, default is 3 tries)
+    ServerAliveInterval 240
+    ServerAliveCountMax 2
 
 Host *github.com
         IdentityFile ~/.ssh/github_rsa
