@@ -62,13 +62,13 @@ Start with a [Customizable Setup](#customizable-setup) run.
 
 This install includes the entire app, formulae, and cask collection, including those in the [essentials](#essentials) install type and all [modes](#modes). This is more for something like a Mac mini.
 
-See the default [Brewfile](https://github.com/bretonics/Setup/tree/main/src/Brewfile).
+See the default [Brewfile](https://github.com/jlchang/bretonics_setup/tree/main/src/Brewfile).
 
 ### Essentials
 
 This install includes a smaller subset of what I deem essential, must haves. It's intended more for a Macbook Pro where you don't need everything under the sun.
 
-See the default [Brewfile](https://github.com/bretonics/Setup/tree/main/src/essentials/Brewfile).
+See the default [Brewfile](https://github.com/jlchang/bretonics_setup/tree/main/src/essentials/Brewfile).
 
 ### Secondary
 
