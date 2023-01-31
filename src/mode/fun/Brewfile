@@ -1,4 +1,6 @@
-brew "cowsay"
-brew "fortune"
-brew "lolcat"
-brew "neofetch"
+cask "adobe-acrobat-reader"
+cask "inkscape"
+cask "notion"
+cask "quarto"
+cask "spotify"
+mas "Notion Web Clipper", id: 1559269364
