@@ -58,7 +58,7 @@ Start with a [Customizable Setup](#customizable-setup) run.
 
 ## Installation Types
 
-### Main
+### Main (For now, don't try this yet - includes running "Secondary" ie. copying dotfiles etc)
 
 This install includes the entire app, formulae, and cask collection, including those in the [essentials](#essentials) install type and all [modes](#modes). This is more for something like a Mac mini.
 
@@ -70,7 +70,7 @@ This install includes a smaller subset of what I deem essential, must haves. It'
 
 See the default [Brewfile](https://github.com/jlchang/bretonics_setup/tree/main/src/essentials/Brewfile).
 
-### Secondary
+### Secondary (skip this for now)
 
 Secondary setup modifies personalized Mac settings, and is run after the initial install. It requires more attention as it may ask for credential or information input. It runs by default if running 'main' type. You must pass the `-s` option otherwise, or you can always run it directly `bash ./secondary.sh`.
 
