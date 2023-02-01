@@ -56,7 +56,6 @@ cask "whatsapp"
 mas "1Password 7", id: 1333542190
 mas "Boop", id: 1518425043
 mas "Gifski", id: 1351639930
-mas "Slack", id: 803453959
 
 
 
