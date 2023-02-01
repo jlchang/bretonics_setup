@@ -41,6 +41,6 @@ URL=$(curl -H "Accept: application/vnd.github.v3+json" https://api.github.com/re
 
 curl -L -H "Accept: application/vnd.github.v3+json" --url ${URL} -o Setup.zip
 
-unzip Setup.zip -d Setup
-cd Setup/bretonics-Setup*
+unzip Setup.zip -d bretonics
+cd bretonics/jlchang-bretonics_setup*
 caffeinate bash ./install.sh "$@"
