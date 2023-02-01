@@ -374,6 +374,21 @@ installFormulae() {
 }
 
 #- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# Installs git repos
+# - $1 argument: path to file listing repos
+installGitRepos() {
+    subsection "Installing Git Repositories"
+
+    while read -r repo; do
+        echo -e "\n\nInstalling ${repo}"
+        git clone ${repo}
+    done < ${1}
+
+    message "DONE installing Git repositories"
+    sleep 2
+}
+
+#- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 # Installs Oh My Zsh Framework
 installOMZ() {
     isZsh
