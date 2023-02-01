@@ -21,19 +21,19 @@ setDefaultShell
 copyFiles
 setSettings
 #- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
-installOMZ
+#installOMZ
 installShellPrompts
 addShellCompletions
 #- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 configureGit
 configureSSH
-configureGPG
+#configureGPG
 
 #===============================================================================================
 # BACKUPS
 #===============================================================================================
-section "Backups"
-restoreBackups
+#section "Backups"
+#restoreBackups
 
 #===============================================================================================
 # UPDATES
