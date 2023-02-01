@@ -35,7 +35,7 @@
 # ===============================================================================================
 
 # Download latest release and start setup process
-URL=$(curl -H "Accept: application/vnd.github.v3+json" https://api.github.com/repos/bretonics/Setup/releases/latest \
+URL=$(curl -H "Accept: application/vnd.github.v3+json" https://api.github.com/repos/jlchang/bretonics_setup/releases/latest \
     | grep "zipball_url" \
     | cut -d '"' -f 4)
 
